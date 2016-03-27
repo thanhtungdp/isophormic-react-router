@@ -1,11 +1,9 @@
 var webpack = require('webpack');
 
 var config = {
-    entry: [
-        './browser.js'
-    ],
+    entry: __dirname + '/app/App.js',
     output: {
-        path: './public',
+        path: __dirname + '/public',
         filename: "bundle.js"
     },
     module: {
